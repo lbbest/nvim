@@ -1,0 +1,21 @@
+# Neovim swap/backup files
+*.swp
+*.swo
+*~
+.session.vim
+*.un~
+
+# Plugin directories (managed by Lazy.nvim)
+lazy/
+lazy-lock.json
+
+# Temporary files
+*.log
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Session files
+Session.vim
