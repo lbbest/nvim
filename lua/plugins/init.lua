@@ -13,4 +13,7 @@ require("lazy").setup({
 
   -- Telescope
   require("plugins.telescope"),
+
+  -- Treesitter
+  require("plugins.treesitter"),
 })

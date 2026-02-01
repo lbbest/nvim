@@ -9,6 +9,7 @@
 
 1. [ripgrep](https://github.com/BurntSushi/ripgrep)
 2. [fd](https://github.com/sharkdp/fd)
+3. [Treesitter](https://tree-sitter.github.io/tree-sitter/)
 
 ## Directory structure:
 
