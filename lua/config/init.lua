@@ -1,5 +1,8 @@
--- Load all configuration modules
+-- Load config modules
 require("config.options")
 
--- Load plugins after config
+-- Load plugins
 require("plugins")
+
+-- Load keymaps
+require("config.keymaps")

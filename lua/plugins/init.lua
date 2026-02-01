@@ -10,4 +10,7 @@ require("lazy").setup({
 
   -- Mason
   require("plugins.mason"),
+
+  -- Telescope
+  require("plugins.telescope"),
 })

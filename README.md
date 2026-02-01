@@ -5,6 +5,11 @@
 /____/_/ |_/___/ /_(_)_/|_/ |___/___/_/  /_/ \___/\____/_/|_/_/ /___/\___/
 ```
 
+## Dependencies:
+
+1. [ripgrep](https://github.com/BurntSushi/ripgrep)
+2. [fd](https://github.com/sharkdp/fd)
+
 ## Directory structure:
 
 ```
@@ -13,7 +18,8 @@ nvim/
 ├── lua/
 │   ├── config/
 │   │   ├── init.lua                # Requires all config files
-│   │   └── options.lua             # vim.opt settings
+│   │   ├── options.lua             # vim.opt settings
+│   │   └── keymaps.lua             # Custom keymappings
 │   └── plugins/
 │       ├── init.lua                # Plugin manager setup + requires
 │       ├── gruvbox.lua          
