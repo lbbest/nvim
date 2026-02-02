@@ -19,4 +19,7 @@ require("lazy").setup({
 
   -- Neotree
   require("plugins.neo-tree"),
+
+  -- Lualine
+  require("plugins.lualine"),
 })
