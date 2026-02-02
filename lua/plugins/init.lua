@@ -16,4 +16,7 @@ require("lazy").setup({
 
   -- Treesitter
   require("plugins.treesitter"),
+
+  -- Neotree
+  require("plugins.neo-tree"),
 })
