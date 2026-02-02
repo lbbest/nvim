@@ -18,7 +18,6 @@ return {
     -- https://github.com/neovim/nvim-lspconfig
     "neovim/nvim-lspconfig",
     config = function()
-      local lspconfig = require('lspconfig')
       -- Lua
       vim.lsp.config('lua_ls', {})
     end
